@@ -1,0 +1,14 @@
+in_cache_condition_1 = {
+    ('foo.example.com.', 'CNAME'): 'bar.example.com.',
+    ('d.gtld-servers.net.', 'A'): '192.31.80.30',
+    ('bar.example.com.', 'CNAME'): 'foobar.example.com.',
+    ('a.root-servers.net.', 'A'): '198.41.0.4',
+    ('example.com.','A'): '93.184.215.14',
+    ('com. ','NS'): 'd.gtld-servers.net.',
+    ('www.metalhead.com.','CNAME'): 'metalhead.com.',
+    ('.', 'NS'): 'b.root-servers.net.',
+    ('.', 'NS'): 'a.root-servers.net.',
+    ('foobar.example.com.', 'A'): '1192.0.2.23',
+    ('foobar.example.com.', 'A'): '192.0.2.24'
+
+            }
